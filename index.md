@@ -4,7 +4,7 @@ layout: default
 
 ![Branching](https://stolendan.github.io/assets/logoBig.png)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/szdHFjJpG48" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/szdHFjJpG48" title="YouTube video player" frameborder="0" allow="accelerometer; display: block; border-style:none; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 [//]: # ![Branching](https://www.youtube.com/watch?v=szdHFjJpG48)
 
 <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@stolendan/video/7100567967653465387" data-video-id="7100567967653465387" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@stolendan" href="https://www.tiktok.com/@stolendan">@stolendan</a> <a title="steelydan" target="_blank" href="https://www.tiktok.com/tag/steelydan">#steelydan</a> any major dude cover @theArena <a title="simivalleycalifornia" target="_blank" href="https://www.tiktok.com/tag/simivalleycalifornia">#simivalleycalifornia</a> <a target="_blank" title="♬ original sound - Stolen Dan | LA" href="https://www.tiktok.com/music/original-sound-7100567922007116590">♬ original sound - Stolen Dan | LA</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
