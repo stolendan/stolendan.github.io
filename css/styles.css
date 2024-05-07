@@ -93,6 +93,30 @@ body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+.video-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 75%;
+  height: 75%; 
+  overflow: hidden;
+}
+.video-container video {
+  /* Make video to at least 100% wide and tall */
+  min-width: 75%; 
+  min-height: 75%; 
+
+  /* Setting width & height to auto prevents the browser from stretching or squishing the video */
+  width: auto;
+  height: auto;
+
+  /* Center the video */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
 hr {
   margin: 1rem 0;
   color: inherit;
