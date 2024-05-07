@@ -99,6 +99,8 @@ body {
   height:100%;
   width:100%;
   overflow: hidden;
+  border: 7px solid #3c190c;
+  box-sizing: border-box;
 }
 
 .videoContainer video
