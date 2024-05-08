@@ -46,15 +46,15 @@
                                 <source src="assets/img/SD_Promo_2minOrLess_cmprsd.mp4" type="video/mp4">
                             </video>
                             <p onclick="toggleControls();">Toggle</p>
-                            
+
                             <script>
-                            var video = document.getElementById("myvideo");
+                            var videoSD = document.getElementById("video");
 
                             function toggleControls() {
-                                if (video.hasAttribute("controls")) {
-                                    video.removeAttribute("controls")   
+                                if (videoSD.hasAttribute("controls")) {
+                                    videoSD.removeAttribute("controls")   
                                 } else {
-                                    video.setAttribute("controls","controls")   
+                                    videoSD.setAttribute("controls","controls")   
                                 }
                             }
                             </script>
