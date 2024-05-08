@@ -42,17 +42,22 @@
                         <!-- <h2 class="text-white-50 mx-auto mt-2 mb-5">A live music project dedicated to the majestic music of Steely Dan</h2> -->
                         <div class="videoContainer">
                             <!-- autoplay -->
-                           <video id="video" width="100%" height="auto" autoplay onclick="playPause();">
+                           <video id="video" width="100%" height="auto" autoplay onclick="playPause(); ">
                                 <source src="assets/img/SD_Promo_2minOrLess_cmprsd.mp4" type="video/mp4">
                             </video>
-                            <!-- iframe width="900" height="480" src="https://youtu.be/KpujzUjiJbg?si=VvFwYUYcqPU8o3nN" frameborder="0" allowfullscreen></iframe> -->
-                            <!-- https://www.youtube.com/embed/lWz-46NPqdk -->
-                            <!-- <object width="560" height="315">
-                                <param name="movie" value="https://youtu.be/KpujzUjiJbg?si=VvFwYUYcqPU8o3nN&amp;version=3"></param>
-                                <param name="allowFullScreen" value="true"></param>
-                                <param name="allowscriptaccess" value="always"></param>
-                                <embed src="https://youtu.be/KpujzUjiJbg?si=VvFwYUYcqPU8o3nN&amp;version=3" type="application/x-shockwave-flash" width="560" height="315" allowscriptaccess="always" allowfullscreen="true"></embed>
-                              </object> -->
+                            <p onclick="toggleControls();">Toggle</p>
+                            
+                            <script>
+                            var video = document.getElementById("myvideo");
+
+                            function toggleControls() {
+                                if (video.hasAttribute("controls")) {
+                                    video.removeAttribute("controls")   
+                                } else {
+                                    video.setAttribute("controls","controls")   
+                                }
+                            }
+                            </script>
                          </div>
                     </div>
                 </div>
