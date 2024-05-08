@@ -81,10 +81,10 @@
 }
 
 body {
-  margin: 0;
+  margin: 5;
   padding: 20px;
-  margin-top: 100vh;
-  transform: translateY(calc(-100% - 20px));
+  //margin-top: 100vh;
+  //transform: translateY(calc(-100% - 20px));
   font-family: var(--bs-body-font-family);
   font-size: var(--bs-body-font-size);
   font-weight: var(--bs-body-font-weight);
