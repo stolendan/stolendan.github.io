@@ -93,17 +93,17 @@ body {
   text-align: var(--bs-body-text-align);
   background-color: var(--bs-body-bg);
   -webkit-text-size-adjust: 100%;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: rgba(174, 67, 5, 0.559);
 }
 
 .videoContainer
 {
   margin: 0;
-  position:absolute;
+  position:relative; /* absolute */
   height:100%;
   width:100%;
   overflow: hidden;
-  border: 7px solid #3c190c;
+  border: 7px solid #c23400;
   box-sizing: border-box;
 }
 
