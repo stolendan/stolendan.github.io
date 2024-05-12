@@ -99,7 +99,7 @@ body {
 .videoContainer
 {
   margin: 0;
-  position:absolute; /* absolute */
+  position:relative; /* absolute */
   height:100%;
   width:100%;
   overflow: hidden;
@@ -11626,7 +11626,7 @@ body {
 
 .about-section {
   padding-top: 10rem;
-  position: absolute; /* was whatever default is and not lining up outside the orange box */
+  position: relative; /* was whatever default is and not lining up outside the orange box */
   background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
 }
 .about-section p {
