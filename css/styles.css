@@ -103,8 +103,8 @@ body {
   height:100%;
   width:100%;
   overflow: hidden;
-  border: 7px solid #c23400;
-  box-sizing: border-box;
+  /* border: 7px solid #c23400;
+  box-sizing: border-box; */
 }
 
 .videoContainer video
@@ -7303,7 +7303,7 @@ textarea.form-control-lg {
   align-items: flex-start !important;
 }
 
-.align-items-end {
+. {
   align-items: flex-end !important;
 }
 
