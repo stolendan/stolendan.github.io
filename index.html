@@ -43,26 +43,23 @@
                         <h1 class="mx-auto my-0 text-uppercase">STOLEN DAN | LA</h1>
                         <h2 class="text-white-50 mx-auto mt-2 mb-5">A live music project dedicated to the majestic music of Steely Dan</h2>
                         <div class="videoContainer">
-                            <video 
-                                id="video"
-                                controls
-                                source src="assets/img/SD_Promo_2minOrLess_cmprsd.mp4" type="video/mp4">
+                            <video id="video" controls> <!-- autoplay onclick="playPause(); "> -->
+                                <source src="assets/img/SD_Promo_2minOrLess_cmprsd.mp4" type="video/mp4">
                             </video>
 
                             <!--
                             <p onclick="toggleControls();">Toggle</p>
-
                             <script>
-                            var videoSD = document.getElementById("video");
+                                var videoSD = document.getElementById("video");
 
-                            function toggleControls() {
-                                if (videoSD.hasAttribute("controls")) {
-                                    videoSD.removeAttribute("controls")   
-                                } else {
-                                    videoSD.setAttribute("controls","controls")   
+                                function toggleControls() {
+                                    if (videoSD.hasAttribute("controls")) {
+                                        videoSD.removeAttribute("controls")   
+                                    } else {
+                                        videoSD.setAttribute("controls","controls")   
+                                    }
                                 }
-                            } -->
-                            </script>
+                            </script> -->
                          </div>
                     </div>
                 </div>
@@ -72,7 +69,7 @@
         <section class="about-section text-center" id="about">
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-lg-8">
+                    <div class="col-lg-8" "justify-content-center">
                         <h2 class="text-white mb-4">Suspects</h2>
                         <p class="text-white-50">
                             Stolen Dan cohorts are live music zealots performing at The Hollywood Bowl, Zanzibar in Santa Monica CA 🇺🇸,
