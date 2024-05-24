@@ -103,7 +103,7 @@ body {
   height:100%;
   width:100%;
   overflow: hidden;
-  /* border: 7px solid #c23400; */
+  border: 7px solid #c23400;
   /* box-sizing: border-box; */
 }
 
